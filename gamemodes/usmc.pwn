@@ -110,7 +110,7 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnGameModeInit()
 {
-	SendRconCommand("hostname USMC | Servidor De Entrenamiento [Ultra-H.com]");
+	SendRconCommand("hostname USMC | Servidor De Entrenamiento");
 	SendRconCommand("mapname USA");
 	SetGameModeText("USMC | SDP");
 	ShowPlayerMarkers(PLAYER_MARKERS_MODE_OFF);
